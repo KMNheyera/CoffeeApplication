@@ -1,0 +1,42 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">{{ title }}</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="justify-content-end font-white w-300">
+      <div>
+        <button
+          *ngIf="!signedIn"
+          class="btn btn-outline-light"
+          (click)="signIn()"
+        >
+          Sign In
+        </button>
+
+        <div class="row">
+          <div class="col-7">
+            <span *ngIf="signedIn">{{ userId | username | async }}</span>
+          </div>
+          <div class="col-5">
+            <button
+              *ngIf="signedIn"
+              class="btn btn-outline-light"
+              (click)="signOut()"
+            >
+              Sign Out
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>

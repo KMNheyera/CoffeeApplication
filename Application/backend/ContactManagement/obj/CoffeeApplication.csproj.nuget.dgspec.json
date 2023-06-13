@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\d_drive\\Projects\\Numeral\\backend\\ContactManagement\\CoffeeApplication.csproj": {}
+    "C:\\Development\\Source Code\\CoffeeApplication\\Application\\backend\\ContactManagement\\CoffeeApplication.csproj": {}
   },
   "projects": {
-    "C:\\d_drive\\Projects\\Numeral\\backend\\ContactManagement\\CoffeeApplication.csproj": {
+    "C:\\Development\\Source Code\\CoffeeApplication\\Application\\backend\\ContactManagement\\CoffeeApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\d_drive\\Projects\\Numeral\\backend\\ContactManagement\\CoffeeApplication.csproj",
+        "projectUniqueName": "C:\\Development\\Source Code\\CoffeeApplication\\Application\\backend\\ContactManagement\\CoffeeApplication.csproj",
         "projectName": "CoffeeApplication",
-        "projectPath": "C:\\d_drive\\Projects\\Numeral\\backend\\ContactManagement\\CoffeeApplication.csproj",
-        "packagesPath": "C:\\Users\\MichaelNheyeraAOLCDe\\.nuget\\packages\\",
-        "outputPath": "C:\\d_drive\\Projects\\Numeral\\backend\\ContactManagement\\obj\\",
+        "projectPath": "C:\\Development\\Source Code\\CoffeeApplication\\Application\\backend\\ContactManagement\\CoffeeApplication.csproj",
+        "packagesPath": "C:\\Users\\MichaelNheyera\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\Source Code\\CoffeeApplication\\Application\\backend\\ContactManagement\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\MichaelNheyeraAOLCDe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MichaelNheyera\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -28,6 +27,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -100,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

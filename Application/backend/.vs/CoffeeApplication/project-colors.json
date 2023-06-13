@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "6ab006e4-b8b4-41e1-a570-8c330136f864": {
+      "ProjectGuid": "6ab006e4-b8b4-41e1-a570-8c330136f864",
+      "DisplayName": "CoffeeApplication",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
